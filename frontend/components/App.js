@@ -45,7 +45,7 @@ function App() {
     <div>
       <h2>Star Wars Characters</h2>
       {characterData.map((singleCharacterObject) => (
-        <Character key= {singleCharacterObject.id} data ={singleCharacterObject}/> 
+        <Character key= {singleCharacterObject.id} character ={singleCharacterObject}/> 
        // console.log(singleCharacterObject)
       ))}
     </div>
